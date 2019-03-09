@@ -1,8 +1,7 @@
-class CreateShoesTable < ActiveRecord::Migration[4.2]
-  def change 
-    create_table :shoes do |t|
-      t.string :color 
-      t.integer :owner_id  
-    end 
-  end 
-end 
+class CreateGenres < ActiveRecord::Migration[4.2]
+  def change
+    create_table :genres do |t|
+      t.string :name 
+    end
+  end
+end
